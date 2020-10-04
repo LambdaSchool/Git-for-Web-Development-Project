@@ -1,4 +1,4 @@
-# Git for Web Development Project
+# Git for Web Development Project 
 In this project you will be using the concepts learned in the Git for Web Development lesson to fork/clone/push/and submit a PR for each project during this sprint.
 
 This project consists of two parts:
@@ -6,9 +6,9 @@ This project consists of two parts:
 ## Task 1: Set up Project
 You will need to follow the Lambda School Git Workflow to add a file to this project follow the steps below:
 
-- [ ] Create your own version of this repo - Fork
-- [ ] Clone this repo
-- [ ] Create a branch `git checkout -b 'firstName-lastName'`
+- [x] Create your own version of this repo - Fork
+- [x] Clone this repo
+- [x] Create a branch `git checkout -b 'firstName-lastName'`
   - [ ] Add a file to the project called `yourFirstName-yourLastName`.txt. This should contain the link to your completed codepen from part 2 as well as the review questions/answers
   - [ ] Run your usual git commands for adding/committing and pushing **Be sure to push to your branch!**
 - [ ] Create a Pull-Request to submit your work
