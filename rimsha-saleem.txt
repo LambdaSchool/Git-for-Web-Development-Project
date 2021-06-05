@@ -1,0 +1,170 @@
+codepen url:https://codepen.io/RimshaSaleem/pen/bGqaJqZ?editors=1100
+https://codepen.io/RimshaSaleem/pen/bGqaJqZ
+
+
+1. What is Semantic HTML? 
+Ans:Sementic tag are those who describe meaning of browser and developer eg :<div>
+<form> <article>
+
+    2. What is HTML used for?
+    Ans:Html is used to build structure of website.
+
+    3. What is an attribute and where do we put it?
+    Ans: Attribute are modifier of an HTML element.Attribute are always specified in the opening tag.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    Ans:h1 is used for title of page.It depends on developer how many times he wanna use it,but commonly its used for page title.
+
+    5. Name two tags that have required attributes
+    Ans: 1: href   2: class.
+
+    6. What do we put in the head of our HTML document? 
+    Ans <head>
+         <title>My Website</title>
+        </head>
+
+    7. What is an id? 
+    Ans:Id define identifier,which must be unique in whole page.
+
+    8. What elements can I add an id to? 
+    Ans: # along with id name.
+
+    9. How many times can I use the same id on a page? 
+    Ans: You cannot use more than one element id on a html.
+
+    10. What is a class?
+    Ans:A class specifies more than one class names for an html element.Different html element can point to the same class name.
+
+    11. What elements can I add a class to? 
+
+    12. How many times can I use the same class on a page? 
+    Ans:Multiple times
+
+    13. How do I get my link to open in a new tab?
+    Ans:<a href="Mypage.html">My Page</a>
+
+    14. What is the alt attribute in the image tag used for? 
+    Ans:It is used to specify text area of a image or it provide alternative information of image.
+
+    15. How do I reference an id?
+    Ans:By using #.For example #gallery.
+
+    16. What is the difference between a section and a div
+    Ans:<section> means content inside is placed.<div> tag define a division of html.
+
+    17. What is CSS used for? 
+    Ans:for changing layout of website or For making website look attractive or beautiful.
+
+    18. How to we select an element? Example - every h2 on the page
+    Ans:h2{
+        text-align:center;
+    }
+    All h2 element text will be centered.
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    Ans: Class can be used in multiple elements
+    ID can be used once
+    <div class="class1">
+    <p>My name is rimsha></p>
+    </div>
+    <div class="class1">
+    <p>Im 21</p>
+    </div>
+    <div id="itsId">
+    </div>
+    <a href="#itsId">ID</a>
+
+    <p id="#itsId">some text here</p>
+    .class1{
+        font-size:20px;
+    }
+    
+
+    20. How do we select classes in CSS?
+    Ans: .class-name{
+    // changing property//
+
+    }
+    21. How do we select a p element with a single class of “human””?
+     p.human{
+       ///changing code inside///
+    }
+
+    22. What is a parent child selector? When would this be useful? 
+    Ans:Parent child selector element selects all element that they are directected to child of the specified element
+
+    23. How do you select all links within a div with the class of sidebar?
+    Ans: .slidebar a{
+        //code here//
+    }
+    24. What is a pseudo selector?
+    Ans:Psuedo selector is a keyword added to selector that specifies  a special state of selected element example: Hover can use to change background color when user pointer hover it.
+
+    25. What do we use the change the spacing between lines?
+    Ans:By using line-height property.
+
+    26. What do we use to change the spacing between letters?
+    Ans:By using letter-spacing in css.
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    Ans:By using text-transform property.EXAMPLE text-transform: uppercase;
+
+    28. How do I add a 1px border around my div that is dotted and black?
+    Ans:div{
+        border: 1px dotted black;
+    }
+    29. How do I select everything on the page? 
+    Ans: by using *
+
+    30. How do I write a comment in CSS?
+    Ans: /*  */
+
+    31. How do I find out what file I am in, when I am using the command line?
+    Ans :By typing pwd.
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    Ans:By using ls command.
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    Ans:By using git rm filename.
+
+    34. Why should I use version control? 
+    Ans:Its important to keep tract of changes .It help teams to collaborate around world.
+
+    35. How often should I commit to github?
+
+    Ans:after every 20 minutes
+    Whenever you make changes on your code or file.
+    We use 3 command to update 1: git add . 
+    2:git commit -m "made changes"
+    3:git push -u origin branch-name.
+
+
+    36. What is the command we would use to push our repo up to github? 
+    Ans:git push -u origin branch-name.
+
+    37. Walk me through Lambda's git flow.
+     Ans:git push -u origin branch-name
+     eg: rimsha-saleem
+     
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    Ans: Inline element are those who can be put in single line like <span><image>
+    Block element are those who start on a new line  like <div>
+     .
+    2. What happens when an element is positioned absolutely?
+    Ans: absolute positioned element sits on its own layer separate from everything else. 
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+    Ans: 
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+   Ans:<a> <span> tag is the only inline-block by default.
+   <p> <ol><ul> is a block-level default.
+   
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+    Ans: In html element have five spacing,width,margin,border,padding. When uing these properties we're primarly working with div tag.
+    we make all elements respect the width we've given them by using padding property.
+    
+    
